@@ -97,7 +97,91 @@ int main() {
     //     printf("It is Consonant");
     // }
 
-    // 
+    // Q.21 ------------------------------------------------------
+    // int number;
+    // printf("Enter your number: ");
+    // scanf("%d", &number);
+
+    // if (number > 0) {
+    //     printf("Positive number");
+    // }
+    // else if (number < 0) {
+    //     printf("Negative Number");
+    // }
+    // else {
+    //     printf("Number is Zero");
+    // }
+
+    // Q.29 ------------------------------------------------------
+    // int dayNum;
+    // printf("Enter the number (1 to 7): ");
+    // scanf("%d", &dayNum);
+
+    // if (dayNum == 1) {
+    //     printf("Monday");
+    // }
+    // else if (dayNum == 2) {
+    //     printf("Tuesday");
+    // }
+    // else if (dayNum == 3) {
+    //     printf("Wednesday");
+    // }
+    // else if (dayNum == 4) {
+    //     printf("Thursday");
+    // }
+    // else if (dayNum == 5) {
+    //     printf("Friday");
+    // }
+    // else if (dayNum == 6) {
+    //     printf("Saturday");
+    // }
+    // else if (dayNum == 7) {
+    //     printf("Sunday");
+    // }
+    // else {
+    //     printf("Not a valid day number");
+    // }
+
+    // Ascending order of 3 numbers
+    int num1, num2, num3;
+
+    printf("Enter first number: ");
+    scanf("%d", &num1);
+    printf("Enter second number: ");
+    scanf("%d", &num2);
+    printf("Enter third number: ");
+    scanf("%d", &num3);
+
+    if (num1 > num2 && num1 > num3) {
+        // num1 is largest
+        if (num2 > num3) {
+            printf("%d %d %d", num3, num2, num1);
+        }
+        else {
+            printf("%d %d %d", num2, num3, num1);
+        }
+    }
+    else if (num2 > num1 && num2 > num3) {
+        // num2 is largest
+        if (num1 > num3) {
+            printf("%d %d %d", num3, num1, num2);
+        }
+        else {
+            printf("%d %d %d", num1, num3, num2);
+        }
+    }
+    else {
+        // num3 is largest
+        if (num1 > num2) {
+            printf("%d %d %d", num2, num1, num3);
+        }
+        else {
+            printf("%d %d %d", num1, num2, num3);
+        }
+    }
+
+
+
 
 
 
@@ -112,6 +196,7 @@ int main() {
     if
     if else
     if else if
+    nested if else
 
 
 */
