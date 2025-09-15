@@ -142,44 +142,78 @@ int main() {
     //     printf("Not a valid day number");
     // }
 
-    // Ascending order of 3 numbers
-    int num1, num2, num3;
+    // Q.22 Ascending order of 3 numbers ----------------------------------
+    // int num1, num2, num3;
 
-    printf("Enter first number: ");
-    scanf("%d", &num1);
-    printf("Enter second number: ");
-    scanf("%d", &num2);
-    printf("Enter third number: ");
-    scanf("%d", &num3);
+    // printf("Enter first number: ");
+    // scanf("%d", &num1);
+    // printf("Enter second number: ");
+    // scanf("%d", &num2);
+    // printf("Enter third number: ");
+    // scanf("%d", &num3);
 
-    if (num1 > num2 && num1 > num3) {
-        // num1 is largest
-        if (num2 > num3) {
-            printf("%d %d %d", num3, num2, num1);
-        }
-        else {
-            printf("%d %d %d", num2, num3, num1);
-        }
-    }
-    else if (num2 > num1 && num2 > num3) {
-        // num2 is largest
-        if (num1 > num3) {
-            printf("%d %d %d", num3, num1, num2);
-        }
-        else {
-            printf("%d %d %d", num1, num3, num2);
-        }
-    }
-    else {
-        // num3 is largest
-        if (num1 > num2) {
-            printf("%d %d %d", num2, num1, num3);
-        }
-        else {
-            printf("%d %d %d", num1, num2, num3);
-        }
-    }
+    // if (num1 > num2 && num1 > num3) {
+    //     // num1 is largest
+    //     if (num2 > num3) {
+    //         printf("%d %d %d", num3, num2, num1);
+    //     }
+    //     else {
+    //         printf("%d %d %d", num2, num3, num1);
+    //     }
+    // }
+    // else if (num2 > num1 && num2 > num3) {
+    //     // num2 is largest
+    //     if (num1 > num3) {
+    //         printf("%d %d %d", num3, num1, num2);
+    //     }
+    //     else {
+    //         printf("%d %d %d", num1, num3, num2);
+    //     }
+    // }
+    // else {
+    //     // num3 is largest
+    //     if (num1 > num2) {
+    //         printf("%d %d %d", num2, num1, num3);
+    //     }
+    //     else {
+    //         printf("%d %d %d", num1, num2, num3);
+    //     }
+    // }
 
+  // Q.31 Switch Case ------------------------------------------------------
+
+    // int number;
+    // printf("Enter day number: ");
+    // scanf("%d", &number);
+
+    // switch (number) {
+    // case 1: printf("Monday");
+    //     break;
+    // case 2: printf("Tuesday");
+    //     break;
+    // case 3: printf("Wednesday");
+    //     break;
+    // case 4: printf("Thursday");
+    //     break;
+    // case 5: printf("Friday");
+    //     break;
+    // case 6: printf("Saturday");
+    //     break;
+    // case 7: printf("Sunday");
+    //     break;
+    // default: printf("Invalid Number");
+    //     break;
+    // }
+
+    // Q.35 -----------------------------------
+    // int num1, num2;
+    // printf("Enter first number: ");
+    // scanf("%d", &num1);
+    // printf("Enter second number: ");
+    // scanf("%d", &num2);
+
+
+    // num1 > num2 ? printf("num1 is bigger") : printf("num2 is bigger");
 
 
 
@@ -197,6 +231,7 @@ int main() {
     if else
     if else if
     nested if else
-
+    Switch Case
+    Ternary Operator
 
 */
