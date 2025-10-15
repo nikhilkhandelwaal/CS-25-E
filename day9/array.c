@@ -67,5 +67,6 @@ int main() {
     return 0;
 }
 
-// Take 5 integer value and print in reverse order
+// Take 5 integer value and print in reverse order using another array
+// Take 5 integer value and print in reverse order without using another array
 // Take 5 integer value and print its sum and Average
